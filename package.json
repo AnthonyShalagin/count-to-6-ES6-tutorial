@@ -1,0 +1,25 @@
+{
+  "name": "count-to-6-es6-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-es6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint": "eslint . --fix" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyShalagin/count-to-6-ES6-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyShalagin/count-to-6-ES6-tutorial/issues"
+  },
+  "homepage": "https://github.com/AnthonyShalagin/count-to-6-ES6-tutorial#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-cloudreach": "^1.0.0"
+  }
+}

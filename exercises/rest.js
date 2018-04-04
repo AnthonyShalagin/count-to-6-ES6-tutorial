@@ -1,15 +1,15 @@
 module.exports = function average(...args) {
-    var result = 0;
-    var count = 0; 
+    let result = 0;
+    let count = 0;
     args.forEach(function (value) {
         result += value;
-        count++; 
+        count++;
     });
-    return result/count; 
+    return result/count;
 };
 
 
 module.exports = (...args) => {
-    var sum = args.reduce((soFar, value) => soFar + value, 0);
+    const sum = args.reduce((soFar, value) => soFar + value, 0);
     return sum / args.length;
 };
